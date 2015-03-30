@@ -1,7 +1,10 @@
 package entity;
 
+import java.io.Serializable;
+
 // Entity class or Value class
-public class CMember {
+public class CMember implements Serializable{
+	private static final long serialVersionUID = 1L;
 	// attributes
 	private String userID;
 	private String password;
