@@ -17,6 +17,7 @@ public class CMain {
 
 	public static void main(String[] args) {
 		// login
+		// test
 		CLoginView loginView = new CLoginView();
 		CMember member = loginView.login();
 		CLoginControl  loginControl = new CLoginControl();
